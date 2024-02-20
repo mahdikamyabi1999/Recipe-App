@@ -12,7 +12,7 @@ function RecipeItem({ item }) {
         </span>
         <h3 className="font-bold text-xl truncate text-black">{item?.title}</h3>
         <Link
-          to={`item?.${item?.id}`}
+          to={`/recipe-item/${item?.id}`}
           className="text-sm p-3 px-8 rounded-lg uppercase font-medium tracking-wider inline-block shadow-md bg-black text-white mt-5"
         >
           Recipe Details
