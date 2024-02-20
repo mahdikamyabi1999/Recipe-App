@@ -25,7 +25,7 @@ export default function GlobalState({ children }) {
   }
   return (
     <GlobalContext.Provider
-      value={{ searchParam, SetSearchParams, handleSubmit }}
+      value={{ searchParam, SetSearchParams, handleSubmit,loading,recipeList }}
     >
       {children}
     </GlobalContext.Provider>
